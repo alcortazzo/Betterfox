@@ -150,7 +150,7 @@ user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", 
 // user_pref("browser.preferences.moreFromMozilla", false);
 // user_pref("browser.aboutConfig.showWarning", false);
 // user_pref("browser.aboutwelcome.enabled", false);
-// user_pref("browser.profiles.enabled", true);
+user_pref("browser.profiles.enabled", true);
 
 /** THEME ADJUSTMENTS ***/
 // user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
@@ -210,3 +210,4 @@ user_pref("browser.ml.chat.enabled", false);
 user_pref("browser.startup.page", 3);
 user_pref("browser.compactmode.show", true);
 user_pref("sidebar.revamp.round-content-area", true);
+user_pref("browser.tabs.groups.enabled", true);
