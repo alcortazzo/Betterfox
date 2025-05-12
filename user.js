@@ -211,3 +211,4 @@ user_pref("browser.startup.page", 3);
 user_pref("browser.compactmode.show", true);
 user_pref("sidebar.revamp.round-content-area", true);
 user_pref("browser.tabs.groups.enabled", true);
+user_pref("widget.windows.mica", true);
