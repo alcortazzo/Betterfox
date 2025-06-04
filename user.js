@@ -49,8 +49,8 @@ user_pref("network.predictor.enable-prefetch", false);
 /** TRACKING PROTECTION ***/
 user_pref("browser.contentblocking.category", "strict");
 // user_pref("browser.download.start_downloads_in_tmp_dir", true);
-// user_pref("browser.helperApps.deleteTempFileOnExit", true);
-// user_pref("browser.uitour.enabled", false);
+user_pref("browser.helperApps.deleteTempFileOnExit", true);
+user_pref("browser.uitour.enabled", false);
 user_pref("privacy.globalprivacycontrol.enabled", true);
 
 /** OCSP & CERTS / HPKP ***/
@@ -63,11 +63,11 @@ user_pref("privacy.globalprivacycontrol.enabled", true);
 // user_pref("security.tls.enable_0rtt_data", false);
 
 /** DISK AVOIDANCE ***/
-// user_pref("browser.privatebrowsing.forceMediaMemoryCache", true);
-// user_pref("browser.sessionstore.interval", 60000);
+user_pref("browser.privatebrowsing.forceMediaMemoryCache", true);
+user_pref("browser.sessionstore.interval", 60000);
 
 /** SHUTDOWN & SANITIZING ***/
-// user_pref("browser.privatebrowsing.resetPBM.enabled", true);
+user_pref("browser.privatebrowsing.resetPBM.enabled", true);
 user_pref("privacy.history.custom", true);
 
 /** SEARCH / URL BAR ***/
@@ -88,14 +88,14 @@ user_pref("signon.formlessCapture.enabled", false);
 // user_pref("editor.truncate_user_pastes", false);
 
 /** MIXED CONTENT + CROSS-SITE ***/
-// user_pref("security.mixed_content.block_display_content", true);
-// user_pref("pdfjs.enableScripting", false);
+user_pref("security.mixed_content.block_display_content", true);
+user_pref("pdfjs.enableScripting", false);
 
 /** EXTENSIONS ***/
 // user_pref("extensions.enabledScopes", 5);
 
 /** HEADERS / REFERERS ***/
-// user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
+user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 
 /** CONTAINERS ***/
 // user_pref("privacy.userContext.ui.enabled", true);
@@ -112,7 +112,7 @@ user_pref("permissions.default.desktop-notification", 2);
 user_pref("extensions.getAddons.cache.enabled", false);
 
 /** TELEMETRY ***/
-// user_pref("datareporting.policy.dataSubmissionEnabled", false);
+user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.enabled", false);
@@ -131,9 +131,9 @@ user_pref("browser.newtabpage.activity-stream.telemetry", false);
 user_pref("datareporting.usage.uploadEnabled", false);
 
 /** EXPERIMENTS ***/
-// user_pref("app.shield.optoutstudies.enabled", false);
-// user_pref("app.normandy.enabled", false);
-// user_pref("app.normandy.api_url", "");
+user_pref("app.shield.optoutstudies.enabled", false);
+user_pref("app.normandy.enabled", false);
+user_pref("app.normandy.api_url", "");
 
 /** CRASH REPORTS ***/
 // user_pref("breakpad.reportURL", "");
