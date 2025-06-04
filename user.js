@@ -11,6 +11,9 @@ user_pref("gfx.content.skia-font-cache-size", 20);
 /** DISK CACHE ***/
 user_pref("browser.cache.disk.enable", false);
 
+/** MEMORY CACHE ***/
+user_pref("browser.sessionhistory.max_total_viewers", 4);
+
 /** MEDIA CACHE ***/
 user_pref("media.memory_cache_max_size", 65536);
 user_pref("media.cache_readahead_limit", 7200);
@@ -28,11 +31,14 @@ user_pref("network.dnsCacheExpiration", 3600);
 user_pref("network.ssl_tokens_cache_capacity", 10240);
 
 /** SPECULATIVE LOADING ***/
-// user_pref("network.dns.disablePrefetch", true);
-// user_pref("network.dns.disablePrefetchFromHTTPS", true);
-// user_pref("network.prefetch-next", false);
-// user_pref("network.predictor.enabled", false);
-// user_pref("network.predictor.enable-prefetch", false);
+user_pref("network.http.speculative-parallel-limit", 0);
+user_pref("network.dns.disablePrefetch", true);
+user_pref("network.dns.disablePrefetchFromHTTPS", true);
+user_pref("browser.urlbar.speculativeConnect.enabled", false);
+user_pref("browser.places.speculativeConnect.enabled", false);
+user_pref("network.prefetch-next", false);
+user_pref("network.predictor.enabled", false);
+user_pref("network.predictor.enable-prefetch", false);
 
 /** EXPERIMENTAL ***/
 // user_pref("layout.css.grid-template-masonry-value.enabled", true);
@@ -103,24 +109,26 @@ user_pref("permissions.default.desktop-notification", 2);
 // user_pref("geo.provider.network.url", "https://beacondb.net/v1/geolocate");
 // user_pref("browser.search.update", false);
 // user_pref("permissions.manager.defaultsUrl", "");
+user_pref("extensions.getAddons.cache.enabled", false);
 
 /** TELEMETRY ***/
 // user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
-// user_pref("toolkit.telemetry.unified", false);
-// user_pref("toolkit.telemetry.enabled", false);
-// user_pref("toolkit.telemetry.server", "data:,");
-// user_pref("toolkit.telemetry.archive.enabled", false);
-// user_pref("toolkit.telemetry.newProfilePing.enabled", false);
-// user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
-// user_pref("toolkit.telemetry.updatePing.enabled", false);
-// user_pref("toolkit.telemetry.bhrPing.enabled", false);
-// user_pref("toolkit.telemetry.firstShutdownPing.enabled", false);
-// user_pref("toolkit.telemetry.coverage.opt-out", true);
-// user_pref("toolkit.coverage.opt-out", true);
-// user_pref("toolkit.coverage.endpoint.base", "");
-// user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
-// user_pref("browser.newtabpage.activity-stream.telemetry", false);
+user_pref("toolkit.telemetry.unified", false);
+user_pref("toolkit.telemetry.enabled", false);
+user_pref("toolkit.telemetry.server", "data:,");
+user_pref("toolkit.telemetry.archive.enabled", false);
+user_pref("toolkit.telemetry.newProfilePing.enabled", false);
+user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
+user_pref("toolkit.telemetry.updatePing.enabled", false);
+user_pref("toolkit.telemetry.bhrPing.enabled", false);
+user_pref("toolkit.telemetry.firstShutdownPing.enabled", false);
+user_pref("toolkit.telemetry.coverage.opt-out", true);
+user_pref("toolkit.coverage.opt-out", true);
+user_pref("toolkit.coverage.endpoint.base", "");
+user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
+user_pref("browser.newtabpage.activity-stream.telemetry", false);
+user_pref("datareporting.usage.uploadEnabled", false);
 
 /** EXPERIMENTS ***/
 // user_pref("app.shield.optoutstudies.enabled", false);
@@ -130,11 +138,6 @@ user_pref("datareporting.healthreport.uploadEnabled", false);
 /** CRASH REPORTS ***/
 // user_pref("breakpad.reportURL", "");
 // user_pref("browser.tabs.crashReporting.sendReport", false);
-
-/** DETECTION ***/
-// user_pref("captivedetect.canonicalURL", "");
-// user_pref("network.captive-portal-service.enabled", false);
-// user_pref("network.connectivity-service.enabled", false);
 
 /****************************************************************************
  * SECTION: PESKYFOX                                                        *
