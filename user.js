@@ -207,6 +207,7 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
  ****************************************************************************/
 
 user_pref("browser.ml.chat.enabled", false);
+user_pref("browser.tabs.groups.smart.enabled", false);
 user_pref("browser.startup.page", 3);
 user_pref("browser.compactmode.show", true);
 user_pref("sidebar.revamp.round-content-area", true);
