@@ -222,3 +222,4 @@ user_pref("widget.windows.mica", true);
 user_pref("sidebar.expandOnHover", true);
 user_pref("sidebar.animation.duration-ms", 100);
 user_pref("sidebar.animation.expand-on-hover.duration-ms", 100);
+user_pref("browser.download.useDownloadDir", false);
