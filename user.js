@@ -74,9 +74,9 @@ user_pref("browser.privatebrowsing.resetPBM.enabled", true);
 user_pref("privacy.history.custom", true);
 
 /** SEARCH / URL BAR ***/
-// user_pref("browser.urlbar.trimHttps", true);
-// user_pref("browser.urlbar.untrimOnUserInteraction.featureGate", true);
-// user_pref("browser.search.separatePrivateDefault.ui.enabled", true);
+user_pref("browser.urlbar.trimHttps", true);
+user_pref("browser.urlbar.untrimOnUserInteraction.featureGate", true);
+user_pref("browser.search.separatePrivateDefault.ui.enabled", true);
 // user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.urlbar.quicksuggest.enabled", false);
 // user_pref("browser.urlbar.groupLabels.enabled", false);
@@ -103,7 +103,7 @@ user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 // user_pref("privacy.userContext.ui.enabled", true);
 
 /** SAFE BROWSING ***/
-// user_pref("browser.safebrowsing.downloads.remote.enabled", false);
+user_pref("browser.safebrowsing.downloads.remote.enabled", false);
 
 /** MOZILLA ***/
 user_pref("permissions.default.desktop-notification", 2);
@@ -145,14 +145,14 @@ user_pref("app.normandy.api_url", "");
  * SECTION: PESKYFOX                                                        *
  ****************************************************************************/
 /** MOZILLA UI ***/
-// user_pref("browser.privatebrowsing.vpnpromourl", "");
-// user_pref("extensions.getAddons.showPane", false);
-// user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
-// user_pref("browser.discovery.enabled", false);
+user_pref("browser.privatebrowsing.vpnpromourl", "");
+user_pref("extensions.getAddons.showPane", false);
+user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
+user_pref("browser.discovery.enabled", false);
 // user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
-// user_pref("browser.preferences.moreFromMozilla", false);
+user_pref("browser.preferences.moreFromMozilla", false);
 // user_pref("browser.aboutConfig.showWarning", false);
 // user_pref("browser.aboutwelcome.enabled", false);
 user_pref("browser.profiles.enabled", true);
@@ -167,9 +167,9 @@ user_pref("browser.ml.enable", false);
 user_pref("browser.ml.chat.enabled", false);
 
 /** FULLSCREEN NOTICE ***/
-// user_pref("full-screen-api.transition-duration.enter", "0 0");
-// user_pref("full-screen-api.transition-duration.leave", "0 0");
-// user_pref("full-screen-api.warning.timeout", 0);
+user_pref("full-screen-api.transition-duration.enter", "0 0");
+user_pref("full-screen-api.transition-duration.leave", "0 0");
+user_pref("full-screen-api.warning.timeout", 0);
 
 /** URL BAR ***/
 // user_pref("browser.urlbar.trending.featureGate", false);
@@ -224,3 +224,4 @@ user_pref("sidebar.animation.duration-ms", 100);
 user_pref("sidebar.animation.expand-on-hover.duration-ms", 100);
 user_pref("browser.download.useDownloadDir", false);
 user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
+user_pref("layers.gpu-process.enabled", true);
