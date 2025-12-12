@@ -222,7 +222,7 @@ user_pref("browser.startup.page", 3);
 user_pref("browser.compactmode.show", true);
 user_pref("sidebar.revamp.round-content-area", true);
 user_pref("browser.tabs.groups.enabled", true);
-user_pref("widget.windows.mica", true);
+// user_pref("widget.windows.mica", true);
 user_pref("sidebar.expandOnHover", true);
 user_pref("sidebar.animation.duration-ms", 100);
 user_pref("sidebar.animation.expand-on-hover.duration-ms", 100);
